@@ -1,15 +1,19 @@
 import fresh_tomatoes
+#this imports the media module made in the media.py file
 import media
 
+#this class uploads the poster for Toy Story as well as the trailer
 toy_story = media.Movie("Toy Story","A story of a boy and his toys that come to life",
            "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
            "https://www.youtube.com/watch?v=vwyZH85NQC4")
 #print(toy_story.storyline)
+#this class uploads the poster for avatar as well as the trailer
 avatar = media.Movie("Avatar"," A marine on an alien planet",
-                     "https://www.google.com.gh/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAcQjRw&url=http%3A%2F%2Fsmellslikescreenspirit.com%2F2009%2F08%2Favatar-teaser-poster%2F&ei=D_4HVavjEYvoUu2Wg6AL&bvm=bv.88198703,d.d24&psig=AFQjCNEwiO52HDyWmjtc-e-hHZUq7sbcXg&ust=1426673546240702",
+                     "http://upload.wikimedia.org/wikpedia/en/b/b0/Avatar-Teaser-Poster.jpg",
                      "http://www.youtube.com/watch?v=-9ceBgWV8io")
 #print(avatar.storyline)
 #avatar.show_trailer()
+#this class uploads the poster school of rock as well as the trailer
 school_of_rock = media.Movie("School of Rock", "Using rock music to learn",
             "http://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
             "https://ww.youtube.com/watch?v=3PsUJFEBC74")
